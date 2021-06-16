@@ -1,0 +1,89 @@
+#photosintro{
+    height: 500px;
+    background: url("/static/img/2.jpg");
+    background-size: cover;
+}
+#photosintro h1{
+    font-size: 5.2rem;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+#photos{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+}
+.row1{
+    height: 400px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+/* .row2{
+    height: 400px;
+    display: flex; */
+    /* border: 2px solid red; */
+/* } */
+.pic1{
+    height: 400px;
+    width: 33%;
+    /* border: 2px solid gray; */
+}
+.pic1 img{
+    height: 350px;
+    width: 455px;
+}
+/* --------------------2--------------------- */
+#photos1{
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+}
+.row4{
+    height: 700px;
+    display: flex; }
+    /* border: 2px solid red; */
+/* /* } */
+.row3{
+    height: 700px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.pic2{
+    height: 700px;
+    width: 33%;
+    /* border: 2px solid gray; */
+}
+.pic2 img{
+    height: 565px;
+    width: 455px;
+}
+/* ------------------3------------------------ */
+#photos2{
+    height: 500px;
+    display: flex;
+    /* border: 2px solid hotpink; */
+    
+}
+ .row5{
+    height: 450px;
+    display: flex;
+    /* border: 2px solid violet; */
+    /* flex-direction: column; */
+}
+.pic3{
+    height: 450px;
+    width: 33.3%;
+    /* border: 2px solid hotpink; */
+}
+.pic3 img{
+    height: 450px;
+    width: 449px;
+} 
+

@@ -1,0 +1,36 @@
+#reviewintro{
+    height: 500px;
+    background: url("/static/img/2.jpg");
+    background-size: cover;
+}
+#reviewintro h1{
+    font-size: 5.2rem;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+#review{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+#review img{
+    height: 100px;
+    width: 100px;
+    margin-left: 590px;
+}
+#review h1{
+    font-size: 3.2rem;
+    text-align: center;
+    color: rgb(105, 101, 101);
+   
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+
+}
+#review p{
+    text-align: center;
+    margin: 2px 270px;
+}

@@ -1,0 +1,52 @@
+#contactintro{
+    height: 635px;
+    background: url("/static/img/contact.jpg");
+    background-size: cover;
+}
+#contact{
+    height: 800px;
+    display: flex;
+    /* flex-direction: column; */
+    border: 2px solid forestgreen;
+}
+.cafe-1{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 50%;
+    border: 2px solid fuchsia;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+.myInput{
+    width: 80%;
+    padding: 20px 21px;
+    margin: 12px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn{
+    padding: 10px 28px;
+    margin: 6px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: coral;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    color:cornflowerblue;
+    background-color: coral;
+}
+.cafe-2{
+    height: 800px;
+    width: 50%;
+    border: 2px solid fuchsia;
+
+}
