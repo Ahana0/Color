@@ -7,14 +7,14 @@
     height: 800px;
     display: flex;
     /* flex-direction: column; */
-    border: 2px solid forestgreen;
+    /* border: 2px solid forestgreen; */
 }
 .cafe-1{
     display: flex;
     flex-direction: column;
     height: 800px;
     width: 50%;
-    border: 2px solid fuchsia;
+    /* border: 2px solid fuchsia; */
 
 }
 .form{
@@ -45,8 +45,70 @@
     background-color: coral;
 }
 .cafe-2{
+    display: flex;
+    flex-direction: column;
     height: 800px;
     width: 50%;
-    border: 2px solid fuchsia;
+    /* border: 2px solid fuchsia; */
 
+}
+.map{
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 15px 76px;
+    padding: 24px 24px;
+}
+.info:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    box-shadow: 7px 5px 6px 2px rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+.info h3{
+    font-size: 2.2rem;
+    color: rgb(77, 76, 76);
+
+}
+.contactbox{
+    display: flex;
+   
+    /* border: 2px solid gray; */
+}
+.contactbox ul{
+    display: flex;
+
+}
+.contactbox li{
+    font-size: 1.2rem;
+    color:grey;
+    list-style: none;
+    margin: 10px 6px
+
+
+}
+
+.map img{
+    height: 500px;
+    margin: 15px 15px;
+    padding: 43px 1px
+}
+.map img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+.info ul img{
+    height: 26px;
+    width: 26px;
+    margin: 10px 14px
 }
